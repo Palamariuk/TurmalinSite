@@ -1,0 +1,185 @@
+body {
+	/* background: linear-gradient(to right, #81C784, #00897B) */
+	background: url(img/bg.png);
+}
+
+#leftblock {
+ 	height: 100%;
+ 	width: 150px;
+ 	position:absolute;
+ 	left: 0px;
+ 	top: 0px;
+}
+
+.vk{
+	height: 90px;
+	width: 100px;
+	border: solid #1B5E20 2px;
+	border-radius: 50% 0% 50% 50%;
+	background-color: #4CAF50;
+	margin: 5px;
+	left:10%;
+	position: relative;
+}
+.vk p{
+	color: white;
+	font-size: 16px;
+	position: relative;
+	text-align: center;
+	top:20px;
+}
+.vk-g{
+	background-color: #2E7D32;
+}
+
+.vkimg{
+	width: 120px;
+	height: 120px;
+	left: 15px;
+	position: relative;
+}
+
+#rightblock {
+	position: absolute;
+	height: 97%;
+	width: 1130px;
+	border: solid white 2px;
+	border-radius: 30px;
+	left: 170px;
+}
+#about{
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+	text-align: center; 
+
+}
+
+.slider {
+	border: solid white 3px;
+	position: relative;
+	width: 900px;
+	height: 400px;
+	margin: 0 auto;
+	top:20px;
+	border-radius: 20px;
+}
+.slider ul{
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 100px;
+}
+.slider ul li{
+	margin: 10px;
+}
+.slider ul li a{
+	display: block;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	border: solid white 1px;
+	border-radius: 100%;
+	text-decoration: none;
+	line-height: 24px;
+	color: #444;
+}
+.slider ul li a:hover{
+	color:white;
+	background: black;
+}
+.slider-body img{
+	position: absolute;
+	transition: all ease 1s;
+	height: 390px;
+	width: 522px;
+	opacity: 0;
+	border-radius: 20px;
+	
+}
+
+.slider-body{
+	height: 390px;
+	width: 522px;
+	position: absolute;
+	top: 4px;
+	left: 50px;
+	background: #FFF;
+	border-radius: 20px;
+	border: solid white 1px;
+	float: left;
+}
+.slider-body img:target{
+	opacity: 1;
+
+}
+
+.dws-wrapper {
+	max-width: 990px;
+	margin: 0 auto;
+
+}
+
+ul.accordion {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin-top: 100px;
+
+}
+
+ul.accordion li{
+	width: 70px;
+	overflow: hidden;
+	cursor: pointer;
+	display: block;
+	padding: 1px 1px 0;
+	transition: all 1.5s;
+	border-radius: 10px;
+}
+ul.accordion img {
+	width: 640px;
+}
+ul.accordion li:hover {
+	width: 640px;
+	transition: all 1s;
+}
+
+#turmalin {
+	width: 200px;
+	left: 20px;
+	top: 30px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#ubf {
+	width: 200px;
+	right: 20px;
+	top: 30px;
+	float: right;
+	margin-right: 10px; 
+	margin-top: 10px;
+}
+
+.text{
+	height: 390px;
+	width: 300px;
+	position: absolute;
+	top: 4px;
+	left: 590px;
+	border-radius: 20px;
+	border: solid white 1px;
+}
+.text p{
+	position: absolute;
+	transition: all ease 1s;
+	height: 390px;
+	width: 300px;
+	opacity: 0;
+	border-radius: 20px;
+	font-size: 20px;
+	margin-top: 50px;
+	
+}
+.text p:target{
+	opacity: 1;
+}
